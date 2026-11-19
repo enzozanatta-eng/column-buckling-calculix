@@ -1,0 +1,14 @@
+Steel column 400 x 20 x 10 mm, buckling about the weak axis (I = 1667 mm^4) | mesh (40, 4, 4)
+
+End conditions       K   Euler [N]     FEA [N]     Diff      MAC
+Fixed-free       2.000        5397        5421   +0.44%  1.00000
+Pinned-pinned    1.000       21590       21340   -1.16%  1.00000
+Fixed-pinned     0.699       44167       43717   -1.02%  0.99997
+Fixed-fixed      0.500       86359       86746   +0.45%  0.99999
+
+Mesh convergence, pinned-pinned case:
+      40 elements: P_cr =   20757.0 N  (-3.857% vs Euler)
+      80 elements: P_cr =   21134.0 N  (-2.111% vs Euler)
+     640 elements: P_cr =   21339.9 N  (-1.157% vs Euler)
+    1280 elements: P_cr =   21451.8 N  (-0.639% vs Euler)
+   10240 elements: P_cr =   21501.5 N  (-0.409% vs Euler)
