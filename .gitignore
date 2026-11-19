@@ -1,0 +1,8 @@
+*.inp
+*.dat
+*.frd
+*.sta
+*.cvg
+*.12d
+spooles.out
+__pycache__/
